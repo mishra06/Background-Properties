@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    max-width: 100vw;
+    background: linear-gradient(black, grey);
+    padding: 2%;
+
+
+}
+
+.nav_e{
+    display: inline-block;
+    color: aliceblue;
+    margin-inline: 6%;
+}
+.home{
+    background-color: white;
+    color: black;
+    padding: .5% 1.5%;
+}
+
+.main_0{
+    background-image: url("./assest/phar.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_1{
+    height: 500px;
+    width: 100%;
+}
+
+.main_1 > img{
+    margin: 2%;
+    width: 29%;
+    height: 90%;
+}
+
+.main_2{
+    padding: 2%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+}
+.main_2 > p{
+    width: 45%;
+    color: white;
+    display: inline-block;
+}
+
+.main_2 >img{
+    height: 400px;
+    width: 45%;
+    margin: 1%;
+    border-radius: 10%;
+}
